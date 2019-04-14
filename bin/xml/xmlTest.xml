@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!--XML解析器测试文件-->
+  <item id="1" text="item 1">
+	  <node id="1" des="node 1" />
+	  <node id="2" des="node 2" />
+	  <node id="3" des="node 3" >
+		<label text="小节点" />  
+	  </node>
+  </item>
+  
+  <item id="2" text="item 2">
+	  <node id="1" des="node 1" />
+	  <node id="2" des="node 2" />
+	  <node id="3" des="node 3" />
+  </item>
+  
+  <item id="3" text="item 2">
+	  <node id="1" des="node 1" />
+	  <node id="2" des="node 2" />
+	  <node id="3" des="node 3" />
+  </item>
+  
+</data>

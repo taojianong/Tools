@@ -1,0 +1,1 @@
+java -jar F:/360yunpan/code/workplace/as3/Tools/bin/Swift.jar xml2lib F:/360yunpan/code/workplace/as3/Tools/bin/xml/tt.xml C:\Users\Administrator\Desktop\tt.swf 

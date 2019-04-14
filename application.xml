@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<application xmlns="http://ns.adobe.com/air/application/14.0">
+	
+	<id>Tools</id> 
+	<versionNumber>1.0</versionNumber> 
+	<filename>Tools</filename> 
+	
+	<name>Tools</name> 
+	<description></description> 
+	<copyright></copyright> 
+	
+	<initialWindow> 
+		<title>Tools</title> 
+		<content>Tools.swf</content> 
+		<systemChrome>standard</systemChrome> 
+		<transparent>false</transparent> 
+		<visible>true</visible> 
+		<minimizable>true</minimizable> 
+		<maximizable>true</maximizable> 
+		<resizable>true</resizable> 
+	</initialWindow> 
+	<!-- desktop extendedDesktop -->
+	<supportedProfiles>extendedDesktop desktop</supportedProfiles>
+	<!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+</application>

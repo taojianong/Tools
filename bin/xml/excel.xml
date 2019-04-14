@@ -1,0 +1,18 @@
+<data>
+  <item id="0" title="第一条日志" text="简单日志系统完成" time="2014/03/29  01:00:01  星期六"/>
+  <item id="1" title="日志系统开发完成" text="日志系统开发完成，今晚暂时开发到这里！" time="2014/03/29  02:22:40  星期六"/>
+  <item id="2" title="添加Gif工具" text="添加GifToolUI&#xD;给SwfToolUI加上关闭按钮&#xD;写日志框输入文本改为多行输入&#xD;abc" time="2014/03/29  15:32:19  星期六"/>
+  <item id="3" title="添加日志修改功能" text="读取日志时可修改日志并保存&#xD;主要是对log.xml的读取及修改" time="2014/04/02  22:56:51  星期三"/>
+  <item id="4" title="修改SwfTool报错问题" text="先点开保存Swf后再点打开swf会报错&#xD;因为没移除file的select事件。" time="2014/04/02  23:48:56  星期三"/>
+  <item id="5" title="修改Tree组件" text="重新查看了Tree.as文件，并做相应修改&#xD;添加展开子节点，并重新排列&#xD;修改相关组件，如UIComponet.as,VSprite等。" time="2014/04/07  05:16:37  星期一"/>
+  <item id="6" title="修改tree组件指向BUG" text="指向TreeItem时要缩短10个像素问题&#xD;已修改" time="2014/04/07  05:37:51  星期一"/>
+  <item id="7" title="XML解析界面读取XML树中" text="1.优化Tree相关组件&#xD;2.添加XMLTree,XMLTreeNode,&#xD;XMLTreeItem组件，继承自Tree等相关组件。&#xD;3.添加读取XML界面，可用于显示修改XML属性及值，待开发！" time="2014/04/07  23:45:30  星期一"/>
+  <item id="8" title="今晚弄了个云SVN" text="弄了个svn将文件上传到360云盘中&#xD;以后就可以将项目保存到云盘了&#xD;还有svn版本控制&#xD;爽！" time="2014/04/08  22:39:30  星期二"/>
+  <item id="9" title="添加XML解析工具功能" text="读取XML树中数据，并显示&#xD;完成初步修改节点XML数据&#xD;将继续完成修改节点数据功能" time="2014/04/13  00:39:12  星期日"/>
+  <item id="10" title="修改Slider组件" text="修改按住上下键可滑动问题" time="2014/04/17  23:04:42  星期四"/>
+  <item id="11" title="XML树解析工具升级" text="基本完成功能&#xD;可修改树节点数据&#xD;可保存树相应节点的XML数据（右键保存）&#xD;暂时未对添加移除节点做XML操作！&#xD;" time="2014/04/19  23:55:24  星期六"/>
+  <item id="12" title="想做个时间系统" text="主要是显示当前日期，农历等。&#xD;可向日程系统方向开发！&#xD;可继续开发定时关机功能 20140430" time="2014/04/19  23:57:44  星期六"/>
+  <item id="13" title="电话薄系统日程" text="记得电话薄项目！" time="2014/04/30  22:55:29  星期三"/>
+  <item id="14" title="时间系统" text="已绘制基本模型" time="2014/05/02  02:05:08  星期五"/>
+  <item id="15" title="时间系统基本完成" text="时间系统时间显示基本完成&#xD;后期可加上日程功能，待做个日程数据库后加上！" time="2014/05/03  23:18:14  星期六"/>
+</data>

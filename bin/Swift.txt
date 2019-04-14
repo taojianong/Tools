@@ -1,0 +1,35 @@
+==================================Swift.jar使用方法======================================
+http://code.google.com/p/swift-tool/
+
+Swift有两种使用方式:
+一是xml2lib，顾名思义，它可以根据指定的xml文件内容编译成swf库文件。
+二是dir2lib，它则可以把指定文件夹中的所有有效资源编译成swf库文件。 
+
+xml2lib¶
+
+Usage: 
+•java -jar Swift.jar xml2lib lib.xml lib.swf 
+•java -jar Swift.jar xml2lib lib.xml lib.swc 
+
+•bitmapdata - 把指定图片文件编译成flash.display.BitmapData类，支持参数有compression，quality。 
+• bitmap - 把指定图片文件编译成flash.display.Bitmap类，支持参数有compression，quality。 
+• sprite - 把指定图片文件编译成flash.display.Sprite类，支持参数有compression，quality。 
+• flexmovieclip - 把指定图片文件编译成mx.flash.UIMovieClip类，支持参数有compression，quality。 
+• flexcontainer - 把指定图片文件编译成mx.flash.ContainerMovieClip类，支持参数有compression，quality。 
+• font - 把指定的字体文件编译成flash.text.Font类，支持参数有unicode，char，charRange。 
+• sound - 把指定声音文件编译成flash.media.Sound类。 
+• bytearray - 把指定的任何文件编译成flash.utils.ByteArray类
+注意事项： 
+•所有资源都有file和class两个参数。file指定资源文件路径，当使用相对路径的时候，要注意这个路径是相对于执行Swift.jar命令的路径，而不是相对于xml文件的路径。class参数指定资源编译成swf后的as3类定义名，从而能够通过ApplicationDomain.getDefinition()来获取资源定义。 
+•在图片类型资源中，如果是png格式，当参数compression为true时，图片将被编码成带alpha通道DefineBitsJPEG3，默认压缩比率即quality为80，相比原始图片可以得到更高的压缩比率。这也是Flash CS5中的处理方式。 
+•在编译font字体资源时，如果不指定unicode、char或charRange参数，Swift将把字体中的所有有效字型都编译到swf中。一般的字体比较小的如英文字体可以完全编译，而像中文字体这种大型字体建议根据需要指定嵌入字型的范围，可以是unicode范围如\u4e00-\u9fa5，或者字符列表char和字符范围charRange。 
+•声音sound资源目前只支持11hz倍率的音频文件，如11hz，22hz，44hz等。 
+•allowDomain参数可指定访问域，与Security.allowDomain()方法作用一致。
+
+dir2lib
+
+Usage: 
+•java -jar Swift.jar dir2lib d:/myLib/ d:/myLib/lib.swf 
+•java -jar Swift.jar dir2lib d:/myLib/ d:/myLib/lib.swc 
+注意事项： 
+•此种方式下，所有资源的类名即资源的文件名（不包含扩展名）。如demo.png的类名即demo。 

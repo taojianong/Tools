@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lib allowDomain="*">        
+	<!--<bitmapdata file="image/img1.png" class="PNGBitmapData"/>   
+	<bitmapdata file="image/img2.jpg" class="JPGBitmapData"/>-->   
+	<bitmap file="bin/image/9ria.jpg" quality="80" class="JPGBitmap"/>  
+	<!--<bitmap file="image/img4.png" compression="true" quality="80" class="PNGBitmap"/>  
+	<sprite file="image/img5.png" class="PNGSprite"/>      
+	<sprite file="image/img6.jpg" class="JPGSprite"/>      
+	<flexmovieclip file="image/img7.jpg" class="FlexMC"/>  
+	<flexcontainer file="image/img8.jpg" class="FlexContainer"/> 
+	<font file="Arial.ttf" unicode="u+0020-007e,u+00a0-036f" class="ArialFont" />  
+	<font file="msyh.ttf" char="微软雅黑" charRange="a-z,A-Z"  unicode="u+5fae,u+8f6f,u+96c5,u+9ed1,u+4e00-u+4eff" class="MsyhFont" />    
+    <sound file="sound/test.mp3" class="TestSound"/>    
+    <bytearray file="data/test.xml" class="XMLData"/>-->
+</lib>

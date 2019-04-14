@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<Button id="openSwf" label="打开SWF" x="300" y="500" />
+    <Button id="save" label="保存SWF" x="400" y="500" />
+	<Button id="mOpen" label="批量打开" x="500" y="500"  />
+</data>

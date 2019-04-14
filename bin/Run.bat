@@ -1,0 +1,1 @@
+java -jar Swift.jar xml2lib guidLib.xml guidLib.swf
